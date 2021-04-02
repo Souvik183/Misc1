@@ -69,11 +69,20 @@ public static WebDriver driver;
 				+ "	\\main\\java\\com\\screenshot\\element.png"));
 	}
 	
+	public static void sendkeys()
+	{
+		JavascriptExecutor js=((JavascriptExecutor)driver);
+		js.executeScript("document.getElementById('UserName').value='admin';");
+		js.executeScript("document.getElementById('Password').value='admin';");
+	}
+	
 	@Test
 	public void test1() throws Throwable
 	{
-		driver.findElement(By.name("UserName")).sendKeys("admin");
-		driver.findElement(By.name("Password")).sendKeys("admin");
+		//driver.findElement(By.name("UserName")).sendKeys("admin");
+		//driver.findElement(By.name("Password")).sendKeys("admin");
+		
+		sendkeys();
 		WebElement loginbtn=driver.findElement((By.xpath("//input[@value=\"Login\"]")));
 		//Drawing Border
 		drawborder(loginbtn);

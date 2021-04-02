@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-03-21T17:59:36 IST" name="Default suite" finished-at="2021-03-21T17:59:52 IST" duration-ms="15116">
+  <suite started-at="2021-04-02T21:25:07 IST" name="Default suite" finished-at="2021-04-02T21:25:26 IST" duration-ms="18930">
     <groups>
     </groups>
-    <test started-at="2021-03-21T17:59:36 IST" name="Default test" finished-at="2021-03-21T17:59:52 IST" duration-ms="15116">
-      <class name="com.SpecialDropdown.AutoSuggestDD">
-        <test-method signature="test1()[pri:0, instance:com.SpecialDropdown.AutoSuggestDD@78ffe6dc]" started-at="2021-03-21T17:59:36 IST" name="test1" finished-at="2021-03-21T17:59:52 IST" duration-ms="15076" status="PASS">
+    <test started-at="2021-04-02T21:25:07 IST" name="Default test" finished-at="2021-04-02T21:25:26 IST" duration-ms="18930">
+      <class name="AlertClass.NotificationPopup">
+        <test-method signature="test1()[pri:0, instance:AlertClass.NotificationPopup@4f80542f]" started-at="2021-04-02T21:25:07 IST" name="test1" finished-at="2021-04-02T21:25:26 IST" duration-ms="18884" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-      </class> <!-- com.SpecialDropdown.AutoSuggestDD -->
+      </class> <!-- AlertClass.NotificationPopup -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
